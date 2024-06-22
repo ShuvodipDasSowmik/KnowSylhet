@@ -1,4 +1,4 @@
-let text = document.getElementById('text');
+let textIndex = document.getElementById('textIndex');
 let leaf = document.getElementById('leaf');
 let hill1 = document.getElementById('hill1');
 let hill2 = document.getElementById('hill2');
@@ -8,7 +8,7 @@ let tree = document.getElementById('tree');
 
 window.addEventListener('scroll', () =>{
     let value = window.scrollY;
-    text.style.marginTop = value * 0.999 + 'px';
+    textIndex.style.marginTop = value * 0.5 + 'px';
     leaf.style.top = value* -1 + 'px';
     leaf.style.left = value* 1+ 'px';
     hill5.style.left = value * 1 + 'px';

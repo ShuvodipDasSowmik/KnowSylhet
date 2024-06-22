@@ -9,24 +9,42 @@
     background-color: none;
 }
 
+#parallaxAbout{
+    height: 55.3vw;
+}
 .parallax img{
     position: absolute;
     width: 100%;
 }
 
-#text{
+.text{
     position: absolute;
-    font-size: 8vw;
     color: white;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
-    padding-top: 23vw;
+}
+
+#textAbout{
+    font-size: 12vw;
+    padding-top: 20vw;
+}
+
+#textIndex{
+    font-size: 8vw;
+    padding-top: 21vw;
 }
 
 .AfterParallax{
     position: relative;
-    background-color: #003329;
     height: auto;
     width: 100%;
+}
+
+#AfterParallaxIndex{
+    background-color: #003329;
+}
+
+#AfterParallaxAbout{
+    background-color: black;
 }
 
 .navi{
@@ -37,13 +55,19 @@
     justify-content: center;
     align-items: center;
     top:0;
+}
+
+#naviIndex{
     background-color: #003329;
 }
 
+#naviAbout{
+    background-color: black;
+}
 .navi a{
     color: white;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: x-large;
     padding-left: 2vw;
     padding-right: 2vw;
     border-radius: 0.7vw;
@@ -51,12 +75,21 @@
     transition-duration: 0.4s;
 }
 
+
 .navi a:hover, .navi a.active{
-    background-color: rgb(50, 205, 55);
     color: black;
-    font-size: 2.3vw;
+    font-size: xx-large;
 }
-#paragraph{
+
+#naviIndex a:hover, #naviIndex a.active{
+    background-color: rgb(50, 205, 55);
+}
+
+#naviAbout a:hover, #naviAbout a.active{
+    background-color:white;
+}
+
+.paragraph{
     padding: 1vw;
     font-size: x-large;
     color: white;
@@ -65,3 +98,10 @@
     word-spacing: 0.3vw;
     line-height: 4.5vh;
 }
+
+.Heading{
+    margin-left: 3vw;
+    color: white;
+    font-size: xx-large;
+}
+
