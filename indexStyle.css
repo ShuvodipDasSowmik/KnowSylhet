@@ -12,6 +12,10 @@
 #parallaxAbout{
     height: 55.3vw;
 }
+
+#parallaxContact{
+    height: 55.3vw;
+}
 .parallax img{
     position: absolute;
     width: 100%;
@@ -33,6 +37,11 @@
     padding-top: 21vw;
 }
 
+#textContact{
+    font-size: 11vw;
+    padding-top: 18vw;
+}
+
 .AfterParallax{
     position: relative;
     height: auto;
@@ -45,6 +54,10 @@
 
 #AfterParallaxAbout{
     background-color: black;
+}
+
+#AfterParallaxContact{
+    background-color: #363F56;
 }
 
 .navi{
@@ -64,6 +77,11 @@
 #naviAbout{
     background-color: black;
 }
+
+#naviContact{
+    background-color: #363F56;
+}
+
 .navi a{
     color: white;
     text-decoration: none;
@@ -87,6 +105,10 @@
 
 #naviAbout a:hover, #naviAbout a.active{
     background-color:white;
+}
+
+#naviContact a:hover, #naviContact a.active{
+    background-color: #B9F2FA;
 }
 
 .paragraph{
