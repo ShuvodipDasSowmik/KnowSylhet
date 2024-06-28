@@ -11,6 +11,6 @@ window.addEventListener('scroll', () =>{
     textContact.style.marginTop = value * 0.5 + 'px';
     Forest3.style.left = value* -2 + 'px';
     Forest1.style.left = value* 2+ 'px';
-    Mist.style.top = value* 0.999 +'px';
+    Mist.style.top = value* 0.8 +'px';
     
 });
